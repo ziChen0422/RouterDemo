@@ -1,0 +1,20 @@
+PODS:
+  - HomePageCenter (0.0.5):
+    - MGJRouter
+  - MGJRouter (0.9.3)
+  - UserInfoCenter (0.0.6):
+    - MGJRouter
+
+DEPENDENCIES:
+  - HomePageCenter
+  - MGJRouter
+  - UserInfoCenter
+
+SPEC CHECKSUMS:
+  HomePageCenter: 5a9d7ed2f07805d7ca5891be4bd65eb98c1eab09
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+  UserInfoCenter: 065edcdb18f1421edd23d2595ed94615dcc186f6
+
+PODFILE CHECKSUM: adeea43ee04dc93622cd2124eb125c01f6bcdffd
+
+COCOAPODS: 1.2.1

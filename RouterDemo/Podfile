@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.coding.net/zichen0422/zichenSpec.git'
+#source 'https://git.coding.net/zichen0422/UserInfoCenter.git'
+#source 'https://git.coding.net/zichen0422/HomePageCenter.git'
+
+target 'RouterDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  pod 'MGJRouter'
+  pod 'UserInfoCenter'
+  pod 'HomePageCenter'
+  # Pods for RouterDemo
+
+end

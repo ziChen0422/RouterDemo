@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HomePageCenter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MGJRouter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RouterDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UserInfoCenter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1085D1E025586D22B32E4BF126AC482C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8288EBCC1DF7FDA1DA7432318CC432E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C41FEC735A7685B008A48116A3C4957</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C65289BC1EBAA0E85F6276F18A81665F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
