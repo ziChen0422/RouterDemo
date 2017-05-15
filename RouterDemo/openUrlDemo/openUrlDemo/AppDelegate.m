@@ -1,18 +1,14 @@
 //
 //  AppDelegate.m
-//  RouterDemo
+//  openUrlDemo
 //
-//  Created by zichen0422 on 2017/5/11.
+//  Created by zichen0422 on 2017/5/15.
 //  Copyright © 2017年 zichen0422. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
-#import <MGJRouter/MGJRouter.h>
 
 @interface AppDelegate ()
-
-@property (nonatomic, strong) ViewController *viewController;
 
 @end
 
@@ -21,14 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-    
-    self.viewController.view.backgroundColor = [UIColor whiteColor];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:self.viewController];
-    self.window.rootViewController = nav;
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
 
@@ -57,26 +45,6 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(nullable NSString *)sourceApplication annotation:(id)annotation
-{
-    NSLog(@"url---%@", url);
-    
-    NSString *urlPath = [url absoluteString];
-    [MGJRouter openURL:urlPath
-          withUserInfo:@{@"navigationVC" : self.viewController.navigationController}
-            completion:nil];
-    
-    return YES;
-}
-
-- (ViewController *)viewController
-{
-    if (!_viewController) {
-        _viewController = [[ViewController alloc] init];
-    }
-    return _viewController;
 }
 
 @end
