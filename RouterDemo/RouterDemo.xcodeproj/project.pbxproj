@@ -13,6 +13,8 @@
 		04A5E8151EC4717B00C7612F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A5E8141EC4717B00C7612F /* ViewController.m */; };
 		04A5E81A1EC4717B00C7612F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A5E8191EC4717B00C7612F /* Assets.xcassets */; };
 		04A5E81D1EC4717B00C7612F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A5E81B1EC4717B00C7612F /* LaunchScreen.storyboard */; };
+		04B3BCC31EC996F60047C947 /* RouterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3BCC21EC996F60047C947 /* RouterViewController.m */; };
+		04B3BCC61EC997070047C947 /* RouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B3BCC51EC997070047C947 /* RouterModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,10 @@
 		04A5E8191EC4717B00C7612F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A5E81C1EC4717B00C7612F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A5E81E1EC4717B00C7612F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B3BCC11EC996F60047C947 /* RouterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterViewController.h; sourceTree = "<group>"; };
+		04B3BCC21EC996F60047C947 /* RouterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterViewController.m; sourceTree = "<group>"; };
+		04B3BCC41EC997070047C947 /* RouterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterModule.h; sourceTree = "<group>"; };
+		04B3BCC51EC997070047C947 /* RouterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouterModule.m; sourceTree = "<group>"; };
 		1A2FA4264184B7319B67B8C0 /* libPods-RouterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RouterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C5C584F1C557B840623358 /* Pods-RouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RouterDemo/Pods-RouterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D8295F34A3C3E9295BE62426 /* Pods-RouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RouterDemo/Pods-RouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +73,10 @@
 				04A5E8111EC4717B00C7612F /* AppDelegate.m */,
 				04A5E8131EC4717B00C7612F /* ViewController.h */,
 				04A5E8141EC4717B00C7612F /* ViewController.m */,
+				04B3BCC11EC996F60047C947 /* RouterViewController.h */,
+				04B3BCC21EC996F60047C947 /* RouterViewController.m */,
+				04B3BCC41EC997070047C947 /* RouterModule.h */,
+				04B3BCC51EC997070047C947 /* RouterModule.m */,
 				04A5E8191EC4717B00C7612F /* Assets.xcassets */,
 				04A5E81B1EC4717B00C7612F /* LaunchScreen.storyboard */,
 				04A5E81E1EC4717B00C7612F /* Info.plist */,
@@ -223,8 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A5E8151EC4717B00C7612F /* ViewController.m in Sources */,
+				04B3BCC31EC996F60047C947 /* RouterViewController.m in Sources */,
 				04A5E8121EC4717B00C7612F /* AppDelegate.m in Sources */,
 				04A5E80F1EC4717A00C7612F /* main.m in Sources */,
+				04B3BCC61EC997070047C947 /* RouterModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

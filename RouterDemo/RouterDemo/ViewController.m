@@ -45,7 +45,7 @@
             completion:nil];
 }
 
-
+#pragma mark - /*** init All Views ***/
 - (void)initViews
 {
     UIButton *homePageBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 120, 100, 50)];
@@ -62,7 +62,6 @@
     userInfoBtn.backgroundColor = [UIColor redColor];
     [userInfoBtn addTarget:self action:@selector(userInfoBtnClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:userInfoBtn];
-    
 }
 
 @end

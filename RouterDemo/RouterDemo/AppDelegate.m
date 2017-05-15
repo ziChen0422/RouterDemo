@@ -63,9 +63,20 @@
 {
     NSLog(@"url---%@", url);
     
+//    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+//    NSString *urlString = [url query];
+//    for (NSString *param in [urlString componentsSeparatedByString:@"&"]) {
+//        NSArray *elts = [param componentsSeparatedByString:@"="];
+//        if([elts count] < 2) continue;
+//        [params setObject:[elts lastObject] forKey:[elts firstObject]];
+//    }
+//    
+//    NSLog(@"dic -- %@", params);
+    
+    // 此页面不带 navigationController, 所以可以在对面的处理页面, 获取rootViewController处理
     NSString *urlPath = [url absoluteString];
     [MGJRouter openURL:urlPath
-          withUserInfo:@{@"navigationVC" : self.viewController.navigationController}
+          withUserInfo:nil
             completion:nil];
     
     return YES;
