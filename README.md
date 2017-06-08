@@ -1,3 +1,3 @@
 # 组件化Demo
 
-#### 转载自https://github.com/DeveloperErenLiu/ComponentArchitecture, 如有不妥, 请联系我删除
+#### 参考网上Demo, 如有不妥, 请联系我删除
